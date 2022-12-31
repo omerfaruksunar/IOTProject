@@ -1,11 +1,11 @@
 /************************ Adafruit IO Config *******************************/
-#define IO_USERNAME "omerfaruksunar"  //Adafruit'e baglanti icin gerekli username ve key girisi
-#define IO_KEY "aio_EgiZ02qR0c9jsP7luFA1Igj9lYzO"
+#define IO_USERNAME ""  //Adafruit'e baglanti icin gerekli username ve key girisi
+#define IO_KEY ""
 
 /******************************* WIFI **************************************/
 
-#define WIFI_SSID "ofs"      //Wifi SSID ve sifresi
-#define WIFI_PASS "38383838"
+#define WIFI_SSID ""      //Wifi SSID ve sifresi
+#define WIFI_PASS ""
 
 
 #include "AdafruitIO_WiFi.h"
