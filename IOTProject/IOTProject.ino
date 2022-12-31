@@ -5,8 +5,8 @@
 #include <ArduinoJson.h>
 WiFiClientSecure client;
 
-#define BOTtoken "5965199864:AAF1kK5M_Ax0Iz-3tIDAdg1Eavwm3Kl80cA"      //Telegram bot token buraya yazıyoruz.
-#define CHAT_ID "5189687563"                                           //Telegram Chat ID buraya yazıyoruz.
+#define BOTtoken ""      //Telegram bot token buraya yazıyoruz.
+#define CHAT_ID ""                                           //Telegram Chat ID buraya yazıyoruz.
 X509List cert(TELEGRAM_CERTIFICATE_ROOT); 
 
 
@@ -18,14 +18,14 @@ AdafruitIO_Feed *counter = io.feed("counter");                        // Adafrui
 #define out D2
 
 char thingSpeakAddress[] = "api.thingspeak.com";
-String thingtweetAPIKey = "RBYSWZ58D6REEIRS";                         //ThingTweet API key'i buraya yazıyoruz.
+String thingtweetAPIKey = "";                         //ThingTweet API key'i buraya yazıyoruz.
 String tsData;
 
 
-unsigned long channelID = 1995784;                                    //ThingSpeak ChannelID buraya yazıyoruz.
+unsigned long channelID = ;                                    //ThingSpeak ChannelID buraya yazıyoruz.
 unsigned  int field_no=1;
-const char* writeAPIKey = "3QJAKFLCT7J2P722";                         //  Thingspeak write API Key'i buraya yazıyoruz.
-const char* readAPIKey  = "Y738XMBVKJXE0HTJ";                         //  Thingspeak  read  API Key'i buraya yazıyoruz.
+const char* writeAPIKey = "";                         //  Thingspeak write API Key'i buraya yazıyoruz.
+const char* readAPIKey  = "";                         //  Thingspeak  read  API Key'i buraya yazıyoruz.
 const char* server = "api.thingspeak.com";
 UniversalTelegramBot bot(BOTtoken, client);
 int rndNumber;                                                        //Twitter'a kontrol no bilgisi verecek random degeri tanımlıyoruz.
